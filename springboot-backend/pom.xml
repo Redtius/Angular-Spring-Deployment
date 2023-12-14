@@ -40,6 +40,32 @@
 				<version>LATEST</version> <!-- Replace with the desired version -->
 				<scope>runtime</scope>
 			</dependency>
+			<dependency>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-starter-test</artifactId>
+				<scope>test</scope>
+			</dependency>
+
+			<!-- JUnit 5 -->
+			<dependency>
+				<groupId>org.junit.jupiter</groupId>
+				<artifactId>junit-jupiter-api</artifactId>
+				<version>5.9.3</version> <!-- Replace with the latest version available -->
+				<scope>test</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.junit.jupiter</groupId>
+				<artifactId>junit-jupiter-engine</artifactId>
+				<version>5.9.3</version> <!-- Replace with the latest version available -->
+				<scope>test</scope>
+			</dependency>
+
+			<!-- Spring Test for JUnit 5 support -->
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-test</artifactId>
+				<scope>test</scope>
+			</dependency>
 		</dependencies>
 
 		<build>
